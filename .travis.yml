@@ -2,10 +2,10 @@ language: cpp
 
 arch:
   - amd64
-  - arm64
-  - armf
-  - armv7
+  - arm64-graviton2
 
+virt: lxd
+group: edge
 compiler:
   - gcc
 
